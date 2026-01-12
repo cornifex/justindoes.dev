@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Source Code Pro';
+  src: url('../fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 900;
+  font-style: normal;
+}
+
+@theme {
+  --color-dark: #555;
+  --color-primary: #003153;
+  --color-secondary: #F5F0E1;
+
+  --font-main: 'Source Code Pro', monospace;
+
+  --animate-cursor: cursor 1s infinite;
+}
+
+@keyframes cursor {
+  0%, 40% {
+    color: #003153;
+    background-color: white;
+  }
+  50%, 90% {
+    color: white;
+    background-color: #003153;
+  }
+  100% {
+    color: #003153;
+    background-color: white;
+  }
+}

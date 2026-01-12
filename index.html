@@ -6,40 +6,39 @@
     <title>Justin Cornell</title>
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
-<body>
-<header>
-    <div id="logo">
-        <span id="site-name">./justindoes.de<span class="cursor">v</span></span>
+<body class="m-0 text-dark text-lg font-['Helvetica_Neue',Helvetica,Arial,sans-serif] flex flex-col min-h-screen lg:h-screen">
+<header class="bg-primary px-9 py-9 lg:flex lg:justify-between lg:shrink-0">
+    <div class="text-center mb-9 lg:text-left lg:mb-0">
+        <span class="font-normal text-white text-[2em]" style="font-family: var(--font-main)">./justindoes.de<span class="animate-cursor bg-white text-dark">v</span></span>
     </div>
-    <nav id="secondary-nav">
-        <a href="https://forms.gle/kJVvPus8EN7tJsCJ9">Contact</a>
+    <nav class="flex justify-around items-center lg:justify-end lg:gap-3">
+        <a href="https://forms.gle/kJVvPus8EN7tJsCJ9" class="text-white no-underline leading-6 hover:text-secondary hover:underline">Contact</a>
     </nav>
 </header>
 
-<main>
-    <div class="stripe">
-        <div class="stripe-image">
-            <img src="./assets/justin.jpg" alt="Justin" />
+<main class="flex-grow lg:flex-1 flex items-center lg:overflow-hidden lg:min-h-0">
+    <div class="text-center lg:text-left lg:flex lg:justify-between w-full lg:h-full">
+        <div class="lg:w-1/2 flex items-center justify-center lg:overflow-hidden">
+            <img src="./assets/justin.jpg" alt="Justin" class="max-w-full lg:max-h-full lg:w-auto lg:object-contain" />
         </div>
-        <div class="stripe-text">
-            <div class="stripe-text-inner">
-                <h1>Hey, I'm Justin</h1>
-                <p>For a dozen years and counting, I've been building pragmatic solutions to businesses' digital problems and
+        <div class="lg:w-1/2 flex items-center lg:overflow-y-auto">
+            <div class="px-9 py-9 lg:px-16 lg:py-16">
+                <h1 class="text-4xl font-normal text-dark mb-4">Hey, I'm Justin</h1>
+                <p class="mb-4">For a dozen years and counting, I've been building pragmatic solutions to businesses' digital problems and
                     leading teams of engineers to successful outcomes. I believe that ownership, scrappiness, and an insatiable hunger
                     to <strong>get shit done</strong> separates the good from the great. Wanna get in touch?
-                    <a href="https://forms.gle/kJVvPus8EN7tJsCJ9">Drop me a line.</a></p>
-                <p>Full-featured site coming soon!</p>
+                    <a href="https://forms.gle/kJVvPus8EN7tJsCJ9" class="text-primary">Drop me a line.</a></p>
+                <p class="mb-4">Full-featured site coming soon!</p>
             </div>
         </div>
-
     </div>
 </main>
-<footer>
-    <nav id="social-nav">
-        <a href="https://www.linkedin.com/in/cornifex/">LinkedIn</a>
-        <a href="https://github.com/cornifex">GitHub</a>
-        <a href="https://www.drupal.org/u/cornifex">Drupal.org</a>
-        <a href="https://www.upwork.com/freelancers/~012fc7042931fccbfb">Upwork</a>
+<footer class="bg-dark text-white text-center lg:shrink-0">
+    <nav class="flex justify-center h-16 gap-3 items-center lg:justify-end lg:gap-9 lg:mr-[26px]">
+        <a href="https://www.linkedin.com/in/cornifex/" class="text-white no-underline leading-6 hover:text-secondary hover:underline">LinkedIn</a>
+        <a href="https://github.com/cornifex" class="text-white no-underline leading-6 hover:text-secondary hover:underline">GitHub</a>
+        <a href="https://www.drupal.org/u/cornifex" class="text-white no-underline leading-6 hover:text-secondary hover:underline">Drupal.org</a>
+        <a href="https://www.upwork.com/freelancers/~012fc7042931fccbfb" class="text-white no-underline leading-6 hover:text-secondary hover:underline">Upwork</a>
     </nav>
 </footer>
 </body>
